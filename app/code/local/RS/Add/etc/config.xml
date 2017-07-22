@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <RS_Add>
+            <version>0.1.0</version>
+        </RS_Add>
+    </modules>
+    <frontend>
+        <routers>
+            <add>
+                <use>standard</use>
+                <args>
+                    <module>RS_Add</module>
+                    <frontName>IndexController.php</frontName>
+                </args>
+            </add>
+        </routers>
+    </frontend>
+</config>

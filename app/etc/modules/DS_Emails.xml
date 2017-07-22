@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <DS_Emails>
+            <active>true</active>
+            <codePool>local</codePool>
+        </DS_Emails>
+    </modules>
+</config>

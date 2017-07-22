@@ -1,0 +1,6 @@
+<h1>Emails</h1>
+<?php
+$emails = Mage::registry('emails');
+foreach ($emails as $item) {
+    echo '<h2>' . $item['email_name'] . '</h2>';
+}

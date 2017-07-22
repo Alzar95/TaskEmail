@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<layout>
+    <dsemails_index_index>
+        <reference name="content">
+            <block type="dsemails/emails" template="ds_emails/index.phtml" />
+        </reference>
+    </dsemails_index_index>
+    <dsemails_index_view>
+        <reference name="content">
+            <block type="dsemails/view" name="emails.content" template="ds_emails/view.phtml" />
+        </reference>
+    </dsemails_index_view>
+</layout>
